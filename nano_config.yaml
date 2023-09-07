@@ -1,0 +1,82 @@
+---
+# nanoKONTROL2 Korg
+name: default
+keymap:
+  tracks: [
+    {
+        name: 	"track1",
+        knob: 	{name: "k1", type: "control", num: 16, min: 0, max: 127, behavior: "continuous"},
+        fader: 	{name: "f1", type: "control", num: 0, min: 0, max: 127, behavior: "continuous"},
+        solo:	  {name: "s1", type: "control", num: 32, min: 0, max: 127, behavior: "button"},
+        mute:	  {name: "m1", type: "control", num: 48, min: 0, max: 127, behavior: "button"},
+        rec:	 {name: "r1", type: "control", num: 64, min: 0, max: 127, behavior: "button"}
+    },
+    {
+        name: 	"track2",
+        knob: 	{name: "k2", type: "control", num: 17, min: 0, max: 127, behavior: "continuous"},
+        fader: 	{name: "f2", type: "control", num: 1, min: 0, max: 127, behavior: "continuous"},
+        solo:   {name: "s2", type: "control", num: 33, min: 0, max: 127, behavior: "button"},
+        mute:	  {name: "m2", type: "control", num: 49, min: 0, max: 127, behavior: "button"},
+        rec:    {name: "r2", type: "control", num: 65, min: 0, max: 127, behavior: "button"}
+    },
+    {
+        name: 	"track3",
+        knob: 	{name: "k3", type: "control", num: 18, min: 0, max: 127, behavior: "continuous"},
+        fader: 	{name: "f3", type: "control", num: 2, min: 0, max: 127, behavior: "continuous"},
+        solo:	  {name: "s3", type: "control", num: 34, min: 0, max: 127, behavior: "button"},
+        mute:	  {name: "m3", type: "control", num: 50, min: 0, max: 127, behavior: "button"},
+        rec:		{name: "r3", type: "control", num: 66, min: 0, max: 127, behavior: "button"}
+    },
+    {
+        name: 	"track4",
+        knob: 	{name: "k4", type: "control", num: 19, min: 0, max: 127, behavior: "continuous"},
+        fader: 	{name: "f4", type: "control", num: 3, min: 0, max: 127, behavior: "continuous"},
+        solo:   {name: "s4", type: "control", num: 35, min: 0, max: 127, behavior: "button"},
+        mute:   {name: "m4", type: "control", num: 51, min: 0, max: 127, behavior: "button"},
+        rec:    {name: "r4", type: "control", num: 67, min: 0, max: 127, behavior: "button"}
+    },
+    {
+        name: 	"track5",
+        knob: 	{name: "k5", type: "control", num: 20, min: 0, max: 127, behavior: "continuous"},
+        fader: 	{name: "f5", type: "control", num: 4, min: 0, max: 127, behavior: "continuous"},
+        solo:   {name: "s5", type: "control", num: 36, min: 0, max: 127, behavior: "button"},
+        mute:   {name: "m5", type: "control", num: 52, min: 0, max: 127, behavior: "button"},
+        rec:    {name: "r5", type: "control", num: 68, min: 0, max: 127, behavior: "button"}
+    },
+    {
+        name: 	"track6",
+        knob: 	{name: "k6", type: "control", num: 21, min: 0, max: 127, behavior: "continuous"},
+        fader: 	{name: "f6", type: "control", num: 5, min: 0, max: 127, behavior: "continuous"},
+        solo:   {name: "s6", type: "control", num: 37, min: 0, max: 127, behavior: "button"},
+        mute:   {name: "m6", type: "control", num: 53, min: 0, max: 127, behavior: "button"},
+        rec:    {name: "r6", type: "control", num: 69, min: 0, max: 127, behavior: "button"}
+    },
+    {
+        name: 	"track7",
+        knob: 	{name: "k7", type: "control", num: 22, min: 0, max: 127, behavior: "continuous"},
+        fader: 	{name: "f7", type: "control", num: 6, min: 0, max: 127, behavior: "continuous"},
+        solo:   {name: "s7", type: "control", num: 38, min: 0, max: 127, behavior: "button"},
+        mute:   {name: "m7", type: "control", num: 54, min: 0, max: 127, behavior: "button"},
+        rec:    {name: "r7", type: "control", num: 70, min: 0, max: 127, behavior: "button"}
+    },
+    {
+        name: 	"track8",
+        knob: 	{name: "k8", type: "control", num: 23, min: 0, max: 127, behavior: "continuous"},
+        fader: 	{name: "f8", type: "control", num: 7, min: 0, max: 127, behavior: "continuous"},
+        solo:   {name: "s8", type: "control", num: 39, min: 0, max: 127, behavior: "button"},
+        mute:   {name: "m8", type: "control", num: 55, min: 0, max: 127, behavior: "button"},
+        rec:    {name: "r8", type: "control", num: 71, min: 0, max: 127, behavior: "button"}
+    }]
+  transport:
+    rew: 				{name: "rew", type: "control", num: 43, min: 0, max: 127, behavior: "button"}
+    ff: 				{name: "ff", type: "control", num: 44, min: 0, max: 127, behavior: "button"}
+    stop: 			{name: "stop", type: "control", num: 42, min: 0, max: 127, behavior: "button"}
+    play: 			{name: "play", type: "control", num: 41, min: 0, max: 127, behavior: "button"}
+    rec: 				{name: rec, type: "control", num: 45, min: 0, max: 127, behavior: "button"}
+    setmark:		{name: "setmark", type: "control", num: 60, min: 0, max: 127, behavior: "button"}
+    prevmark: 	{name: "prevmark", type: "control", num: 61, min: 0, max: 127, behavior: "button"}
+    nextmark: 	{name: "nextmark", type: "control", num: 62, min: 0, max: 127, behavior: "button"}
+    prevtrack: 	{name: "prevtrack", type: "control", num: 58, min: 0, max: 127, behavior: "button"}
+    nexttrack: 	{name: "nexttrack", type: "control", num: 59, min: 0, max: 127, behavior: "button"}
+    cycle: 			{name: "cycle", type: "control", num: 46, min: 0, max: 127, behavior: "button"}
+...
